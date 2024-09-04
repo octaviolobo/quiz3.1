@@ -288,7 +288,7 @@ function initialize() {
         myGrid.cells[i] = 0;
     }
     // setTimeout(assignRoles, 500);
-    setInterval(showOptions, 500);
+    showOptions();
     // debugger;
 }
 
